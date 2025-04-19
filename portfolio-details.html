@@ -4,218 +4,300 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - Bocor Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>熱門航點介紹 - SkyCompare</title>
+  <meta name="description" content="精選熱門景點與最佳航班推薦，規劃你的夢幻旅程">
+  <meta name="keywords" content="觀光景點, 航班, 機票比價, 旅遊規劃">
 
-  <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Bocor
-  * Template URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="portfolio-details-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
-
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Bocor</h1>
-        <span>.</span>
+        <h1 class="sitename">SkyCompare</h1><span>.</span>
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html#hero">首頁</a></li>
+          <li><a href="index.html#portfolio" class="active">熱門航點</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
-
+      <a class="btn-getstarted" href="index.html#featured-services">開始比價</a>
     </div>
   </header>
 
   <main class="main">
-
-    <!-- Page Title -->
     <div class="page-title dark-background">
       <div class="heading">
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Portfolio Details</h1>
-              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+              <h1>探索景點與最划算的航班時間</h1>
+              <p class="mb-0">了解目的地的迷人之處，並掌握前往該地的最佳機票時段！</p>
             </div>
           </div>
         </div>
       </div>
-      <nav class="breadcrumbs">
-        <div class="container">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio Details</li>
-          </ol>
-        </div>
-      </nav>
-    </div><!-- End Page Title -->
+    </div>
 
-    <!-- Portfolio Details Section -->
     <section id="portfolio-details" class="portfolio-details section">
-
       <div class="container" data-aos="fade-up">
 
-        <div class="portfolio-details-slider swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "navigation": {
-                "nextEl": ".swiper-button-next",
-                "prevEl": ".swiper-button-prev"
-              },
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
+        <!-- 每個城市景點介紹區塊 -->
 
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio/app-1.jpg" alt="">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio/product-1.jpg" alt="">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio/branding-1.jpg" alt="">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio/books-1.jpg" alt="">
-            </div>
-
-          </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-        <div class="row justify-content-between gy-4 mt-4">
-
-          <div class="col-lg-8" data-aos="fade-up">
+        <!-- 日本 大阪 道頓堀 -->
+        <div id="osaka" class="row justify-content-between gy-4 mt-4">
+          <div class="col-lg-8">
             <div class="portfolio-description">
-              <h2>This is an example of portfolio details</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-              <p>
-                Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et. Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt molestiae laboriosam.
-              </p>
-
+              <h2>日本大阪・道頓堀</h2>
+              <p>道頓堀是大阪最具代表性的繁華街，融合傳統與現代，從美食到夜生活都令人流連忘返。招牌「固力果跑者」是遊客必拍的打卡地標。</p>
+              <p><strong>最佳機票時段：</strong> 每年 2 月與 9 月的平日出發，最低票價可達 NT$3,500 起。</p>
               <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <div>
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                </div>
+                <p><i class="bi bi-quote quote-icon-left"></i>我原本以為飛大阪一定很貴，結果 SkyCompare 幫我找到週三出發的航班比假日便宜近一半！<i class="bi bi-quote quote-icon-right"></i></p>
+                <div><img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""><h3>陳小姐</h3><h4>自由行愛好者</h4></div>
               </div>
-
-              <p>
-                Impedit ipsum quae et aliquid doloribus et voluptatem quasi. Perspiciatis occaecati earum et magnam animi. Quibusdam non qui ea vitae suscipit vitae sunt. Repudiandae incidunt cumque minus deserunt assumenda tempore. Delectus voluptas necessitatibus est.
-              </p>
-
-              <p>
-                Sunt voluptatum sapiente facilis quo odio aut ipsum repellat debitis. Molestiae et autem libero. Explicabo et quod necessitatibus similique quis dolor eum. Numquam eaque praesentium rem et qui nesciunt.
-              </p>
-
             </div>
           </div>
-
-          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-3">
             <div class="portfolio-info">
-              <h3>Project information</h3>
+              <h3>景點資訊</h3>
               <ul>
-                <li><strong>Category</strong> Web design</li>
-                <li><strong>Client</strong> ASU Company</li>
-                <li><strong>Project date</strong> 01 March, 2020</li>
-                <li><strong>Project URL</strong> <a href="#">www.example.com</a></li>
-                <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
+                <li><strong>地區</strong> 日本・大阪</li>
+                <li><strong>推薦月份</strong> 2 月、9 月</li>
+                <li><strong>最近票價低點</strong> NT$3,500 起</li>
+                <li><strong>搜尋航班</strong> <a href="index.html#featured-services">立即比價</a></li>
               </ul>
             </div>
           </div>
-
         </div>
 
+        <!-- 香港 維多利亞港 -->
+        <div id="__ANCHOR__" class="row justify-content-between gy-4 mt-5">
+          <div class="col-lg-8">
+            <div class="portfolio-description">
+              <h2>香港・維多利亞港</h2>
+              <p>欣賞世界三大夜景之一，維多利亞港的夜色令人驚嘆，搭乘天星小輪更能感受港都魅力。</p>
+              <p><strong>最佳機票時段：</strong> 每年 6 月或 10 月非假日出發最划算，票價低至 NT$2,800 起！</p>
+              <div class="testimonial-item">
+                <p><i class="bi bi-quote quote-icon-left"></i>我在 SkyCompare 上發現平日下午飛香港的機票不到三千，太划算了！<i class="bi bi-quote quote-icon-right"></i></p>
+                <div><img src="assets/img/testimonials/team-1.jpg" class="testimonial-img" alt=""><h3>李先生</h3><h4>港式文化迷</h4></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="portfolio-info">
+              <h3>景點資訊</h3>
+              <ul>
+                <li><strong>地區</strong> 香港</li>
+                <li><strong>推薦月份</strong> 6 月、10 月</li>
+                <li><strong>最近票價低點</strong> NT$2,800 起</li>
+                <li><strong>搜尋航班</strong> <a href="index.html#featured-services">立即比價</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 巴黎 塞納河 -->
+        <div id="__ANCHOR__" class="row justify-content-between gy-4 mt-5">
+          <div class="col-lg-8">
+            <div class="portfolio-description">
+              <h2>法國巴黎・塞納河</h2>
+              <p>浪漫的塞納河畔是巴黎的靈魂，搭乘遊船穿越歷史橋樑與建築，感受文藝氣息。</p>
+              <p><strong>最佳機票時段：</strong> 每年 3 月與 11 月淡季出發，來回機票約 NT$22,000 起。</p>
+              <div class="testimonial-item">
+                <p><i class="bi bi-quote quote-icon-left"></i>淡季去巴黎既省錢又避開人潮，我的機票不到 NT$23,000，超值！<i class="bi bi-quote quote-icon-right"></i></p>
+                <div><img src="assets/img/testimonials/team-2.jpg" class="testimonial-img" alt=""><h3>王小姐</h3><h4>旅歐愛好者</h4></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="portfolio-info">
+              <h3>景點資訊</h3>
+              <ul>
+                <li><strong>地區</strong> 法國・巴黎</li>
+                <li><strong>推薦月份</strong> 3 月、11 月</li>
+                <li><strong>最近票價低點</strong> NT$22,000 起</li>
+                <li><strong>搜尋航班</strong> <a href="index.html#featured-services">立即比價</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 義大利 比薩斜塔 -->
+<div id="__ANCHOR__" class="row justify-content-between gy-4 mt-5">
+  <div class="col-lg-8">
+    <div class="portfolio-description">
+      <h2>義大利・比薩斜塔</h2>
+      <p>世界著名的奇蹟之一，比薩斜塔的建築與歷史令人驚嘆，是到訪義大利不可錯過的景點。</p>
+      <p><strong>最佳機票時段：</strong> 4 月與 10 月最適合旅遊，來回票價約 NT$25,000 起。</p>
+      <div class="testimonial-item">
+        <p><i class="bi bi-quote quote-icon-left"></i>在 SkyCompare 比價後，我找到台北飛比薩轉機航線超划算，還附加行李！<i class="bi bi-quote quote-icon-right"></i></p>
+        <div><img src="assets/img/testimonials/team-3.jpg" class="testimonial-img" alt=""><h3>張先生</h3><h4>建築攝影師</h4></div>
       </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="portfolio-info">
+      <h3>景點資訊</h3>
+      <ul>
+        <li><strong>地區</strong> 義大利・比薩</li>
+        <li><strong>推薦月份</strong> 4 月、10 月</li>
+        <li><strong>最近票價低點</strong> NT$25,000 起</li>
+        <li><strong>搜尋航班</strong> <a href="index.html#featured-services">立即比價</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-    </section><!-- /Portfolio Details Section -->
+<!-- 荷蘭 風車村 -->
+<div id="__ANCHOR__" class="row justify-content-between gy-4 mt-5">
+  <div class="col-lg-8">
+    <div class="portfolio-description">
+      <h2>荷蘭・風車村</h2>
+      <p>荷蘭傳統風車與綠意盎然的田園景色交織而成，讓人彷彿置身童話世界。</p>
+      <p><strong>最佳機票時段：</strong> 5 月是鬱金香花季，7 月前則是機票優惠期，約 NT$24,000 起。</p>
+      <div class="testimonial-item">
+        <p><i class="bi bi-quote quote-icon-left"></i>搭配 SkyCompare 折扣提醒，我搶到花季前飛阿姆斯特丹的好票價！<i class="bi bi-quote quote-icon-right"></i></p>
+        <div><img src="assets/img/testimonials/team-4.jpg" class="testimonial-img" alt=""><h3>林小姐</h3><h4>賞花旅人</h4></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="portfolio-info">
+      <h3>景點資訊</h3>
+      <ul>
+        <li><strong>地區</strong> 荷蘭・贊丹</li>
+        <li><strong>推薦月份</strong> 5 月、6 月</li>
+        <li><strong>最近票價低點</strong> NT$24,000 起</li>
+        <li><strong>搜尋航班</strong> <a href="index.html#featured-services">立即比價</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
+<!-- 韓國 首爾 崇禮門 -->
+<div id="__ANCHOR__" class="row justify-content-between gy-4 mt-5">
+  <div class="col-lg-8">
+    <div class="portfolio-description">
+      <h2>韓國・首爾崇禮門</h2>
+      <p>韓國重要的文化遺產，崇禮門象徵著歷史與現代融合，是首爾市中心的絕佳觀光地標。</p>
+      <p><strong>最佳機票時段：</strong> 每年 1 月或 10 月最便宜，機票價格約 NT$3,000 起。</p>
+      <div class="testimonial-item">
+        <p><i class="bi bi-quote quote-icon-left"></i>我秋天飛首爾只花了三千出頭，還順路吃遍南大門美食！<i class="bi bi-quote quote-icon-right"></i></p>
+        <div><img src="assets/img/testimonials/林.jpg" class="testimonial-img" alt=""><h3>許小姐</h3><h4>韓劇朝聖者</h4></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="portfolio-info">
+      <h3>景點資訊</h3>
+      <ul>
+        <li><strong>地區</strong> 韓國・首爾</li>
+        <li><strong>推薦月份</strong> 1 月、10 月</li>
+        <li><strong>最近票價低點</strong> NT$3,000 起</li>
+        <li><strong>搜尋航班</strong> <a href="index.html#featured-services">立即比價</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- 肯亞 馬塞馬拉保護區 -->
+<div id="__ANCHOR__" class="row justify-content-between gy-4 mt-5">
+  <div class="col-lg-8">
+    <div class="portfolio-description">
+      <h2>肯亞・馬塞馬拉自然保護區</h2>
+      <p>非洲野生動物的天堂，可觀察獅子、長頸鹿、斑馬大遷徙，是生態攝影師夢寐以求的地點。</p>
+      <p><strong>最佳機票時段：</strong> 每年 7～9 月為動物遷徙季，票價約 NT$28,000 起。</p>
+      <div class="testimonial-item">
+        <p><i class="bi bi-quote quote-icon-left"></i>那次我在 SkyCompare 發現航空聯盟促銷票，只花兩萬八就飛到肯亞！<i class="bi bi-quote quote-icon-right"></i></p>
+        <div><img src="assets/img/testimonials/許先生.jpg" class="testimonial-img" alt=""><h3>林先生</h3><h4>攝影愛好者</h4></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="portfolio-info">
+      <h3>景點資訊</h3>
+      <ul>
+        <li><strong>地區</strong> 肯亞・馬塞馬拉</li>
+        <li><strong>推薦月份</strong> 7 月至 9 月</li>
+        <li><strong>最近票價低點</strong> NT$28,000 起</li>
+        <li><strong>搜尋航班</strong> <a href="index.html#featured-services">立即比價</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- 巴西 里約熱內盧 基督像 -->
+<div id="__ANCHOR__" class="row justify-content-between gy-4 mt-5">
+  <div class="col-lg-8">
+    <div class="portfolio-description">
+      <h2>巴西・里約熱內盧基督像</h2>
+      <p>象徵巴西的世界奇蹟之一，站在山頂俯瞰全城與大海，景色令人讚嘆不已。</p>
+      <p><strong>最佳機票時段：</strong> 每年 5～6 月、9 月機票較便宜，約 NT$31,000 起。</p>
+      <div class="testimonial-item">
+        <p><i class="bi bi-quote quote-icon-left"></i>我用 SkyCompare 發現南美航線大促，里約自由行一生難忘！<i class="bi bi-quote quote-icon-right"></i></p>
+        <div><img src="assets/img/testimonials/簡.jpg" class="testimonial-img" alt=""><h3>簡小姐</h3><h4>拉丁旅遊控</h4></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="portfolio-info">
+      <h3>景點資訊</h3>
+      <ul>
+        <li><strong>地區</strong> 巴西・里約</li>
+        <li><strong>推薦月份</strong> 5～6 月、9 月</li>
+        <li><strong>最近票價低點</strong> NT$31,000 起</li>
+        <li><strong>搜尋航班</strong> <a href="index.html#featured-services">立即比價</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- 祕魯 馬丘比丘 -->
+<div id="__ANCHOR__" class="row justify-content-between gy-4 mt-5">
+  <div class="col-lg-8">
+    <div class="portfolio-description">
+      <h2>祕魯・馬丘比丘</h2>
+      <p>古老的印加遺跡隱藏在安地斯山脈之中，是探索文明與自然結合的壯麗之地。</p>
+      <p><strong>最佳機票時段：</strong> 每年 4～5 月、9 月乾季最宜探訪，票價約 NT$32,000 起。</p>
+      <div class="testimonial-item">
+        <p><i class="bi bi-quote quote-icon-left"></i>SkyCompare 提醒我低價促銷，終於實現了我的印加探險夢！<i class="bi bi-quote quote-icon-right"></i></p>
+        <div><img src="assets/img/testimonials/陳.jpg" class="testimonial-img" alt=""><h3>陳先生</h3><h4>歷史探險者</h4></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="portfolio-info">
+      <h3>景點資訊</h3>
+      <ul>
+        <li><strong>地區</strong> 祕魯・庫斯科</li>
+        <li><strong>推薦月份</strong> 4～5 月、9 月</li>
+        <li><strong>最近票價低點</strong> NT$32,000 起</li>
+        <li><strong>搜尋航班</strong> <a href="index.html#featured-services">立即比價</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+        <!-- 如需我繼續編寫下半段，請告訴我！ -->
+
+      </div>
+    </section>
   </main>
 
   <footer id="footer" class="footer dark-background">
     <div class="container">
-      <h3 class="sitename">Bocor</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <h3 class="sitename">SkyCompare</h3>
+      <p>掌握每一段旅程的最佳時機與優惠票價</p>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>
         <a href=""><i class="bi bi-facebook"></i></a>
@@ -224,36 +306,18 @@
         <a href=""><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="copyright">
-        <span>Copyright</span> <strong class="px-1 sitename">Bocor</strong> <span>All Rights Reserved</span>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <span>Copyright</span> <strong class="px-1 sitename">SkyCompare</strong> <span>All Rights Reserved</span>
       </div>
     </div>
   </footer>
 
-  <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
   <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
